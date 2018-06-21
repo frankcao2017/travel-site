@@ -5,4 +5,13 @@
 	<script src="https://unpkg.com/@tensorflow/tfjs@0.10.3"></script>
 	<script src="https://unpkg.com/@tensorflow-models/mobilenet@0.0.1"></script>
 </head>
+<body onload="setup()">
+	<div style="text-align:center">
+		<h1>Simple Image Recognition </h1>
+		<video id="video"></video>
+		<pre id="predictions"></pre>
+		<canvas id="canvas" style="display:none"></canvas>
+	</div>
+</body>
+<script src="imagerec.js"></script>
 </html>
